@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Calculator</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="Calc.css">
+        
+    </head>
+    <body>
+        <div id="body">
+            <div id="screen">
+                <span id="text">0</span>
+            </div>
+            <div>
+                <table class="keys">
+
+                    <tr>
+                        <td class="operation key" data-value="AC">AC</td>
+                        <td class="operation key" data-value="+/-">+/-</td>
+                        <td class="operation key" data-value="%">%</td>
+                        <td class="operation key" data-value="/">/</td>
+                    </tr>
+
+                    <tr>
+                        <td  class="digit key" data-value="7">7</td>
+                        <td  class="digit key" data-value="8">8</td>
+                        <td  class="digit key" data-value="9">9</td>
+                        <td class="operation key" data-value="*">*</td>
+                    </tr>
+                    <tr>
+                        <td  class="digit key" data-value="4">4</td>
+                        <td  class="digit key" data-value="5">5</td>
+                        <td  class="digit key" data-value="6">6</td>
+                        <td class="operation key" data-value="-">-</td>
+
+                    </tr>
+                    <tr>
+                        <td  class="digit key" data-value="1">1</td>
+                        <td  class="digit key" data-value="2">2</td>
+                        <td  class="digit key" data-value="3">3</td>
+                        <td class="operation key" data-value="+">+</td>
+
+                    </tr>
+                    <tr>
+                        <td colspan="2"  class="digit key" data-value="0" >0</td>
+                        <td class="operation key" data-value=".">.</td>
+                        <td class="operation key" data-value="=">=</td>
+                    </tr>
+                </table>
+            </div>
+
+            </div>
+
+        </div>
+        
+        <script src="Calc.js" async defer></script>
+    </body>
+</html>
